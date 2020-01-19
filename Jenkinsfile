@@ -3,7 +3,7 @@ node {
    
    git url: 'https://github.com/bogo-devops/game-of-life.git'
    
-   ef mvnHome = tool 'M3'
+   def mvnHome = tool 'M3'
 
    // Mark the code build 'stage'....
    stage 'Build'
